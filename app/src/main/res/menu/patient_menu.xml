@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/idmenu_patient_pesel"
+        android:title="@string/sort_by_patient_pesel"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/idmenu_patient_name"
+        android:title="@string/sort_by_patient_lastname"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idlogin_container"
+    android:orientation="vertical"
+    android:background="@color/backgroundlight"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logo"
+            android:contentDescription="@string/infomed_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/enter_the_code_you_received_in_the_email"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/idverfi_edittext_code"
+            android:layout_width="300sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/fields"
+            android:drawableStart="@drawable/password_logo"
+            android:inputType="textPassword"
+            android:paddingStart="2dp"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/idverfi_button_continue"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/continues"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

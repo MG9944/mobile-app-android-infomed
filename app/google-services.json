@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732504307958",
+    "project_id": "infomed-b328b",
+    "storage_bucket": "infomed-b328b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732504307958:android:1c314c6ecaee57d4ff54d7",
+        "android_client_info": {
+          "package_name": "umg.student.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732504307958-vi68ko02krd45tdf8g8h7n7vc6m894ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxkJEEUukZLfhtH3JQeWXYDHGVhna9IEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732504307958-vi68ko02krd45tdf8g8h7n7vc6m894ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorActivity.DoctorPersonalDataActivity"
+    android:orientation="vertical"
+    android:background="@color/backgroundlight"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logo"
+            android:contentDescription="@string/infomed_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_your_personal_data"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/idregister_edittext_firstname"
+            android:layout_width="300sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fields"
+            android:hint="@string/firstname"
+            android:paddingStart="2dp"
+            tools:ignore="RtlSymmetry"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/idregister_edittext_lastname"
+            android:layout_width="300sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fields"
+            android:hint="@string/lastname"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+
+        <Spinner
+            android:id="@+id/idregister_spinner_specialisation"
+            android:layout_below="@+id/idregister_edittext_lastname"
+            android:layout_width="300sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fields"
+            android:spinnerMode="dropdown"
+            android:overlapAnchor="false"/>
+
+
+        <Spinner
+            android:id="@+id/idregister_spinner_medicalCenter"
+            android:layout_below="@+id/id_spinner_specialisation"
+            android:layout_width="300sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fields"
+            android:spinnerMode="dropdown"
+            android:overlapAnchor="false"/>
+
+        <EditText
+            android:id="@+id/idregister_edittext_phoneNumber"
+            android:layout_width="300sp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fields"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            app:prefixText="+48"
+            android:importantForAutofill="no" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/idregister_button_register"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/register"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

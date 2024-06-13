@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/patient_card_extend_coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorActivity.PatientCardExtendedActivity"
+    android:background="@color/backgroundlight"
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/patient_card_extended_swpiper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".DoctorActivity.PatientCardExtendedActivity"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/patient_card_extended_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/empty_patient_card_extended_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top_no_notes"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/there_are_currently_no_patient_card_in_the_database"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/msg_no_notes" />
+
+    </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

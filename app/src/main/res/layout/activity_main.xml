@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundlight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center|top">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:background="@drawable/fields"
+        >
+        <ImageView
+            android:id="@+id/doctor_menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_noun_user"
+            android:contentDescription="@string/user_settings" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/dasboard"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idAppointement"
+            android:background="@drawable/fields"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/transparent"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/fields"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_appointement"
+                    android:contentDescription="@string/appointement" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/appointments"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idPatient"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardElevation="0dp"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fields"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_group_patients"
+                    android:contentDescription="@string/patient_image" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/patients"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <!-- End LinearLayout block for inserting icons -->
+
+
+    <!-- Start LinearLayout block for inserting icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idPatientCard"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardElevation="0dp"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/fields">
+                <ImageView
+                    android:layout_width="92dp"
+                    android:layout_height="92dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_patients_card"
+                    android:contentDescription="@string/patient_card" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/patients_card"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idIllness"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardElevation="0dp"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/fields">
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:padding="10dp"
+                    android:src="@drawable/illness"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/illness"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <!-- End LinearLayout block for inserting icons -->
+
+    <!-- Start LinearLayout block for inserting icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idMedicamente"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardElevation="0dp"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/fields">
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_medicamente"
+                    android:contentDescription="@string/medicamente_logo" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/medicamente"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

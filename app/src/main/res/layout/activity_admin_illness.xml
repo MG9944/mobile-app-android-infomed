@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/illness_coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity.AdminIllnessActivity"
+    android:background="@color/backgroundlight">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/illness_swpiper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".AdminActivity.AdminIllnessActivity"
+        >
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adminIllnessListSearchView"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search illness ..."/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/illness_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/empty_illness_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top_no_notes"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:text="@string/there_are_currently_no_illness_registered_in_the_database"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/msg_no_notes" />
+
+
+        <Button
+            android:id="@+id/idillness_button_add_illness"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/add_new_illness"
+            android:textColor="#ffffff"
+            android:textSize="15sp">
+        </Button>
+    </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

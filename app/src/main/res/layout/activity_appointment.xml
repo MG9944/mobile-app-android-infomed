@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundlight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorActivity.AppointmentActivity"
+    android:id="@+id/appointment_coordinator_layout"
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/appointment_swpiper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".DoctorActivity.AppointmentActivity"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/appointment_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/empty_appointment_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top_no_notes"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/no_appointment_in_the_database"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/msg_no_notes" />
+
+        <Button
+            android:id="@+id/idappointment_button_add_appointment"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/add_new_appointment"
+            android:textColor="#ffffff"
+            android:textSize="15sp">
+        </Button>
+    </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

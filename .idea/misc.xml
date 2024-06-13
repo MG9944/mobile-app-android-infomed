@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_admin_doctor.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_admin_iilness.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_admin_illness.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_admin_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_admin_medcicamente.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_admin_patient.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_appointment.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_doctor_personal_data.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_medicamente.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_patient.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_patient_card.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/dialog_appointment.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/dialog_doctor.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/dialog_patient.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/dialog_patient_card.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/illness_dialog.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/list_row_appointment.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/list_row_doctor.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/list_row_illness.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/list_row_medicamente.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/list_row_patient.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/list_row_patient_card.xml" value="0.1" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/layout/medicamente_dialog.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/macie/OneDrive/Pulpit/Studia/inz/apka/Refactor/InfoMed/app/src/main/res/menu/menu.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/roundedbutton.xml" value="0.2665" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.183" />
+        <entry key="app/src/main/res/layout/activity_appointment.xml" value="0.3802083333333333" />
+        <entry key="app/src/main/res/layout/activity_change_forgot_password.xml" value="0.4703125" />
+        <entry key="app/src/main/res/layout/activity_doctor_personal_data.xml" value="0.5604166666666667" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.22872340425531915" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_patient.xml" value="0.38613861386138615" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2318840579710145" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18009118541033434" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.18009118541033434" />
+        <entry key="app/src/main/res/layout/content_navigation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/dialog_appointment.xml" value="0.46822916666666664" />
+        <entry key="app/src/main/res/layout/dialog_patient.xml" value="0.46822916666666664" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/list_row_appointment.xml" value="0.3802083333333333" />
+        <entry key="app/src/main/res/layout/list_row_doctor.xml" value="0.4703125" />
+        <entry key="app/src/main/res/layout/list_row_patient.xml" value="0.3672316384180791" />
+        <entry key="app/src/main/res/layout/nav_header_navigation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.3619791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin">
+
+    <TextView android:id="@+id/iddialog_patient_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/add_new_patient"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/patient_pesel"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/iddialog_patient_pesel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="xxxxxxxxxxx"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColorHint="@color/lightgray"
+        android:textSize="@dimen/input_new_note"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/patient_lastname"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/iddialog_patient_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Nowak"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColorHint="@color/lightgray"
+        android:textSize="@dimen/input_new_note"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/patient_firstname"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/iddialog_patient_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Marcin"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColorHint="@color/lightgray"
+        android:textSize="@dimen/input_new_note"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/patient_address"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/iddialog_patient_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Berlin"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColorHint="@color/lightgray"
+        android:textSize="@dimen/input_new_note" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/patient_phone_number"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/iddialog_patient_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="+48123456789"
+        android:inputType="numberSigned"
+        android:textColorHint="@color/lightgray"
+        android:textSize="@dimen/input_new_note" />
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundlight"
+    tools:context=".DoctorActivity.EditPatientAppointmentActivity">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DoctorActivity.MedicamenteActivity"
+    >
+        <TextView
+            android:id="@+id/idrow_consultation_display_dataconsultation"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dot_height"
+            android:layout_marginEnd="@dimen/dot_margin_right"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:includeFontPadding="false"
+            android:textColor="@color/colorPrimary"
+            android:lineSpacingExtra="0dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/idrow_consultation_display_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idrow_consultation_display_dataconsultation"
+            android:layout_toEndOf="@id/idrow_consultation_display_dataconsultation"
+            android:textColor="@color/darker_grey"
+            android:textSize="@dimen/note_list_text" />
+
+        <TextView
+            android:id="@+id/iddialog_consultation_insert_temperature_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/patient_temperature"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/idrow_consultation_display_dataconsultation"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/iddialog_consultation_insert_temperature"
+            android:layout_width="375sp"
+            android:layout_height="48dp"
+            android:gravity="top"
+            android:layout_marginStart="10dp"
+            android:hint="12 "
+            android:background="@drawable/fields"
+            android:layout_below="@id/iddialog_consultation_insert_temperature_text"
+            android:inputType="number"
+            android:textColorHint="@color/lightgray"
+            android:textSize="@dimen/input_new_note" />
+
+        <TextView
+            android:id="@+id/iddialog_consultation_insert_bloodpressure_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/patient_blood_pressure"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/iddialog_consultation_insert_temperature"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/iddialog_consultation_insert_bloodpressure"
+            android:layout_width="375sp"
+            android:layout_height="48dp"
+            android:gravity="top"
+            android:layout_marginStart="10dp"
+            android:hint="120 "
+            android:background="@drawable/fields"
+            android:layout_below="@id/iddialog_consultation_insert_bloodpressure_text"
+            android:inputType="number"
+            android:textColorHint="@color/lightgray"
+            android:textSize="@dimen/input_new_note" />
+
+        <TextView
+            android:id="@+id/iddialog_consultation_insert_sugarlevel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/patient_sugar_level"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/iddialog_consultation_insert_bloodpressure"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/iddialog_consultation_sugarlevel_insert"
+            android:layout_width="375sp"
+            android:layout_height="48dp"
+            android:gravity="top"
+            android:layout_marginStart="10dp"
+            android:hint="12 "
+            android:background="@drawable/fields"
+            android:layout_below="@id/iddialog_consultation_insert_sugarlevel_text"
+            android:inputType="number"
+            android:textColorHint="@color/lightgray"
+            android:textSize="@dimen/input_new_note" />
+
+        <EditText
+            android:id="@+id/iddialog_consultation_insert_description"
+            android:layout_width="375sp"
+            android:layout_height="250sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20sp"
+            android:hint="@string/insert_description_of_the_visit"
+            android:layout_below="@id/iddialog_consultation_sugarlevel_insert"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:background="@drawable/fields"
+            android:maxLines="4"
+            android:textColor="@color/darker_grey" />
+
+    <Button
+        android:id="@+id/appointment_button_save"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/save_edited_appointment"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
